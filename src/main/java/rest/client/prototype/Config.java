@@ -18,7 +18,7 @@ public class Config {
     private String keytab;
     private String principal;
 
-    Config(Properties properties) throws Exception {
+    Config(Properties properties) {
         // Assign the config Variables
         authType = properties.getProperty("authentication");
         requestType = properties.getProperty("http.request");

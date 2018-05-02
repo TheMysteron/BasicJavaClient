@@ -1,10 +1,10 @@
 package rest.client.prototype;
 
+import rest.client.prototype.business.Service;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
-
-import rest.client.prototype.business.Service;
 
 public class Application {
 
@@ -14,12 +14,12 @@ public class Application {
     private static Service service = new Service();
 
     public static void main(String[] args) {
-    	try {
-    		service.getResponse(new Config(getProperties()));
-    	} catch(Exception ex) {
-    		System.err.println(ex.getMessage());
-    		ex.printStackTrace();
-    	}
+        try {
+            service.getResponse(new Config(getProperties()));
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
+            ex.printStackTrace();
+        }
     }
 
     /**

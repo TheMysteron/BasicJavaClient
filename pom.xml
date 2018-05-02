@@ -8,9 +8,9 @@
     <artifactId>rest_api_client</artifactId>
     <version>1.4-SNAPSHOT</version>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -29,7 +29,7 @@
             <version>20171018</version>
         </dependency>
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>
