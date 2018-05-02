@@ -1,4 +1,4 @@
-package rest.client.prototype;
+package client;
 
 import javax.xml.bind.DatatypeConverter;
 import java.util.Properties;

@@ -1,6 +1,6 @@
-package rest.client.prototype;
+package client;
 
-import rest.client.prototype.business.Service;
+import client.business.Service;
 
 import java.io.File;
 import java.io.FileInputStream;

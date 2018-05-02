@@ -1,10 +1,10 @@
-package rest.client.prototype.business;
+package client.business;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;
-import rest.client.prototype.Config;
-import rest.client.prototype.http.Basic;
-import rest.client.prototype.http.Kerberos;
+import client.Config;
+import client.http.Basic;
+import client.http.Kerberos;
 
 public class Service {
 

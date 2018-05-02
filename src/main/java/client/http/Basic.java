@@ -1,4 +1,4 @@
-package rest.client.prototype.http;
+package client.http;
 
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
@@ -8,7 +8,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.auth.BasicScheme;
 import org.apache.http.impl.client.HttpClientBuilder;
-import rest.client.prototype.Config;
+import client.Config;
 
 import java.nio.charset.StandardCharsets;
 
